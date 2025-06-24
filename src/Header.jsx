@@ -2,10 +2,10 @@ import { Link } from "react-router-dom"
 function Header() {
   return (
     <>
-    <div>
+    <div className="headerDiv">
          <h1>Ecommerce</h1>
          <nav>
-          <ul>
+          <ul className="menuSection">
             <li> <Link to={"/"}>Home</Link></li>
             <li><Link to={"/about"}>About</Link></li>
             <li><Link to={"/contact"}>Contact</Link></li>

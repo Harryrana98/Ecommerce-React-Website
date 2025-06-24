@@ -4,11 +4,35 @@
   box-sizing: border-box;
 }
 
+.headerDiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: aqua;
+  align-items: center;
+}
+
+.menuSection{
+  display: flex;
+  gap: 30px;
+}
+
+nav ul{
+  list-style: none;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #000;
+  font-size: large;
+  font-weight: bold;
+}
+
 .mainDiv {
   width: 286px;
   height: 360px;
   box-shadow: 0 0 10px;
-  margin-top: 18px;
+  margin-top: 25px;
   padding: 15px;
   border-radius: 5px;
 }
@@ -22,7 +46,7 @@
 .productDiv {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   text-align: center;
   padding: 20px;
 }
@@ -31,57 +55,56 @@
   width: 100%;
 }
 
-
-.singleProductDiv{
+.singleProductDiv {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.product{
+.product {
   width: 40%;
 }
-.product img{
+.product img {
   width: 100%;
 }
 
-.content{
+.content {
   width: 50%;
 }
 
-.contactDiv{
+.contactDiv {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px;
 }
 
-.mapDiv{
+.mapDiv {
   width: 48%;
 }
 
-.form{
+.form {
   width: 48%;
 }
 
-form{
+form {
   display: flex;
   flex-direction: column;
 }
 
-input{
+input {
   width: 100%;
   padding: 10px;
 }
-label{
+label {
   margin: 20px 0 5px 0;
 }
 
-textarea{
+textarea {
   padding: 1rem;
 }
 
-button{
+button {
   margin-top: 2rem;
   padding: 10px;
   background-color: green;
